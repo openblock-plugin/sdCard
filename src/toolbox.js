@@ -1,8 +1,7 @@
 /* eslint-disable func-style */
 /* eslint-disable max-len */
 /* eslint-disable require-jsdoc */
-export default () => {
-    return `
+export default () => `
 <category name="%{BKY_SDCARD_CATEGORY}" id="SDCARD_CATEGORY" colour="#00DD77" secondaryColour="#00AA55">
     <block type="sdCard_init" id="sdCard_init">
         <field name="CS">2</field>
@@ -46,4 +45,3 @@ export default () => {
         </value>
     </block>
 </category>`;
-};
